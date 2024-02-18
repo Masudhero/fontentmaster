@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Libre+Franklin:wght@300;400;500;600;700;800;900&family=Satisfy&display=swap');
+/* body section  */
+*{
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Franklin', sans-serif;
+    /* font-family: 'Satisfy', cursive; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1920px;
+}
+/* container section start  */
+.container{
+    max-width: 1420px;
+    margin: 0px auto;
+    padding: 0 20px;
+     /* box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important; */
+}
+/* container section end  */
+/* this is root section  */
+:root{
+    --primary:#000000;
+    --Secondary:#FFC727;
+    --blow-light:#FFF8E5;
+    --black:#263238;
+    --solid-white:#FFFFFF;
+    --gray:#F0F0F0;
+    --white:#FFFFFF;
+    --gray-light:#7F7F7F;
+    /* font side  */
+    --fs-1: 64px;
+    --fs-2: 48px;
+    --fs-3: 32px;
+    --fs-4: 22px;
+    --fs-5: 18px;
+    --font-style:'Satisfy', cursive;
+}
+.ittlic{
+    font-family: var(--font-style);
+    color: var(--Secondary);
+}
+.fs-1{
+    font-size: var(--fs-1);
+}
+.fs-2{
+    font-size: var(--fs-2);
+}
+.fs-3{
+    font-size: var(--fs-3);
+}
+.fs-4{
+    font-size: var(--fs-4);
+}
+.fs-5{
+    font-size: var(--fs-5);
+}
+/* this is font size end  */
+/* margin top root start  */
+/* common css */
+.w-1{
+    font-weight: 300;
+}
+.w-2{
+    font-weight: 400;
+}
+.w-3{
+    font-weight: 500;
+}
+.w-4{
+    font-weight: 600;
+}
+.w-5{
+    font-weight: 700;
+}
+/* margin top  */
+.mt-1{
+    margin-top: 10px;
+}
+.mt-2{
+    margin-top: 20px;
+}
+.mt-3{
+    margin-top: 40px;
+}
+.mt-4{
+    margin-top: 50px;
+}
+.mt-5{
+    margin-top: 80px;
+}
+.mt-6{
+    margin-top: 90px;
+}
+.mt-7{
+    margin-top: 100px;
+}
+    /* color style  */
+.color-1{
+    color: var(--white);
+}
+.color-2{
+    color: var(--solid-white);
+}
+.color-3{
+    color: var(--gray-light:#7F7F7F);
+}
+ /* display flex  */
+.d-flex{
+    display: flex;
+    gap: 10px;
+}
+.center{
+  text-align: center;
+}
+
+/* this is style section start  */
+/* this is social area section  */
+.social-ariea{
+    width: 100%;
+    height: 70px;
+    background-color: var(--primary);
+}
+.social a{
+    text-decoration: none;
+    color: white;
+  
+}
+.social-midia{
+    margin-inline-start:auto;
+    gap: 30px;
+}
+.social{
+    gap: 30px;
+}
+ /* social area button  */
+.social-midia .user {
+    height: 70px;
+    width: 70px;
+    background-color: var(--Secondary);
+    text-align: center;
+    padding: 17px;
+}
+/* social area start  */
+/* tourmate section start  */
+.tourmate{
+    align-items: center;
+}
+.tourmate-section{
+    width: 100%;
+    height: 53px;
+}
+/* list item  */
+.list-item{
+    gap:29px;
+    margin-inline-start:auto;
+}
+.list-item li {
+    list-style: none;
+}
+.list-item li a{
+    text-decoration: none;
+    color: var(--primary);
+}
+/* resistion button  */
+.registration-button button {
+    width: 135px;
+    height: 33px;
+    border: none;
+    border-radius: 5px;
+    color: var(--solid-white);
+    background: var(--primary);
+    font-size: 22px;
+    font-weight: 500;
+}
+/* this is banner section  */
+.banner-section{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(banner-image/banner-1.png);
+    max-width:1624px;
+    height:655.89px;
+    position: relative;
+}
+.input-fill input{
+    width: 700px;
+    height: 56px;
+    font-size: 16px;
+}
+.input-fill img{
+    margin-left: -10px;
+}
+.banner-title{
+    position: absolute;
+    margin-top: 145px;
+}
+/* banner section end  */
+/* high light  */
+.highlight{
+    width: 155px;
+    height: 47px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--primary);
+    color: var(--white);
+    font-size: 18px;
+}
+/* mean time section start  */
+.secend{
+    gap: 85px;
+}
+.day{
+    gap: 85px;
+}
+#heading{
+    margin-left: 50px;
+}
+.mean-time{
+    width: 100%;
+    height: 350px;
+    background-color: var(--Secondary);
+}
+.time-left{
+    width: 50%;
+    border: 1px dotted var(--blow-light);
+    padding: 10px;
+}
+.time-right {
+    width: 50%;
+}
+.white{
+    color: var(--solid-white);
+}
+.image-1 img{
+    max-width: 100%;
+}
+/* amazon section start  */
+.amazon-section{
+    width: 100%;
+    height: 1255px;
+    background-color: var(--blow-light);
+}
+.populer img{
+    max-width: 100%;
+}
+/* this is testimonial section start  */
+.testimonial{
+    width: 100%;
+    height: 719px;
+    background-color: var(--primary);
+}
+.textimonial-img {
+    margin-left: 450px;
+    gap: 50px;
+}
+.text-datels{
+    color: var(--white);
+}
+.testimonial-text{
+    line-height: 33px;
+}
+/* our trip section start  */
+.our-trip-section{
+    width: 100%;
+}
+.trip-img img{
+    max-width: 100%;
+}
+.trip-img{
+    width: 50%;
+}
+.trip-title{
+    width: 50%;
+    margin-top: 50px;
+    line-height: 2.3rem;
+}
+/* registion section start  */
+.registion-section{
+    width: 100%;
+    background-color: var(--gray);
+    height: 907px;
+}
+.registion-right{
+    width: 45%;
+    margin-top: 220px;
+}
+.registion-right h5{
+    line-height: 27px;
+}
+.registion-left{
+    width: 55%;
+}
+/* input fill section  */
+input{
+    width: 700px;
+    height: 61px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px;
+}
+#register{
+    background-color: var(--Secondary);
+}
+#massage{
+    width: 700px;
+    border-radius: 5px;
+}
+/* newslatter section start  */
+.newsletter-section{
+    width: 100%;
+    height: 500px;
+    background-color: var(--primary);
+}
+.newsletter-1{
+   width: 30%;
+    line-height: 27px;
+}
+.newsletter-2{
+    line-height: 27px;
+    width: 15%;
+}
+.newsletter-3{
+    line-height: 27px;
+    width: 15%;
+}
+.newsletter-4 {
+    line-height: 27px;
+    width: 40%;
+  }
+  /* input button section  */
+.input-2{
+    width: 460px;
+    height: 59px;
+}
+.newsletter{
+    padding-bottom: 1px solid white;
+}
+#color-highlight{
+    color: var(--gray-light);
+}
+/* project end and done  */
